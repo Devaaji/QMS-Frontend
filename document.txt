@@ -1,0 +1,33 @@
+Document structure QMS Frontend - Quality Management System 
+
+----------------------------------------------------------
+FOLDER STRUKTURE
+=> assets
+	=> images 	        : Untuk Menyimpan sebuah gambar berupa Logo dll.
+    => webp             : Gambar untuk menyimpan dengan format Webp
+
+=> components
+
+	=> core		        : Menyimpan sebuah fitur icons, nextimages, loadingScreen
+	=> LogoPindad		: Menyimpan Logo Pindad di Sidebar
+	=> Dashboard 	    : Untuk Membuat Navbar,MainLayout,Sidebar,Pagination dll
+	=> Header		    : Untuk Button GET FTP dan move DAT to CSV
+	=> hooks*
+		=> remote   	: Memanggil sebuah data menggunakan React-Query 
+
+=> context
+	=> dashboard	    : Responsive untuk Sidebar with state react context
+
+=> libs					: Global Url in HTTPS 
+=> pages*				: halaman per pages yang akan ditampilkan
+=> store				: State Management menggunakan zustand untuk membuat cookies saat login
+=> utils 				: Membantu Memanggil sebuah components bersifat global 
+
+
+Note*
+
+1. Untuk sidebar dalam perubahaan dan penambahaan 
+penamaan yang ditampilkan bisa di === utils > sidebar
+
+2. Untuk Melanjutkan M6269 - 02 bisa disamakan 
+dengan tampilan pada M6269 - 01 di components > Dashboard > 01 | 02.
